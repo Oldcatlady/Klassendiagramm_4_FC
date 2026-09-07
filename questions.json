@@ -1,0 +1,94 @@
+[
+{
+  "question": "Was bedeutet eine durchgezogene Linie mit einem nicht ausgefüllten Dreieck?",
+  "answer": "Eine Vererbung (Klasse erbt von Klasse)."
+},
+{
+  "question": "Was bedeutet eine gestrichelte Linie mit einem nicht ausgefüllten Dreieck?",
+  "answer": "Eine Implementierung (Klasse implementiert eine Schnittstelle)."
+},
+{
+  "question": "Was ist eine Implementierung in UML?",
+  "answer": "Eine Beziehung, bei der eine Klasse die in einer Schnittstelle (Interface) definierten Methoden umsetzt."
+},
+{
+  "question": "Was bedeutet Implementierung bei einer Schnittstelle?",
+  "answer": "Die Klasse verpflichtet sich, alle in der Schnittstelle deklarierten Methoden mit konkretem Inhalt zu füllen."
+},
+{
+  "question": "Wie wird eine Implementierungsbeziehung in UML dargestellt?",
+  "answer": "Als gestrichelte Linie mit nicht ausgefülltem Dreieck als Pfeilspitze, zeigend zur Schnittstelle."
+},
+{
+  "question": "Was ist der Unterschied zwischen Vererbung und Implementierung?",
+  "answer": "Vererbung erfolgt zwischen zwei Klassen (durchgezogene Linie), Implementierung zwischen Klasse und Schnittstelle (gestrichelte Linie)."
+},
+{
+  "question": "Woran kann eine Implementierungsbeziehung grafisch erkannt werden?",
+  "answer": "An der gestrichelten Linie mit offenem Dreieck."
+},
+{
+  "question": "Woran kann eine Vererbungsbeziehung grafisch erkannt werden?",
+  "answer": "An der durchgezogenen Linie mit offenem Dreieck."
+},
+{
+  "question": "Welche Beziehung wird durch eine durchgezogene Linie mit nicht ausgefülltem Dreieck dargestellt?",
+  "answer": "Vererbung."
+},
+{
+  "question": "Welche Beziehung wird durch eine gestrichelte Linie mit nicht ausgefülltem Dreieck dargestellt?",
+  "answer": "Implementierung."
+},
+{
+  "question": "Was ist eine Schnittstelle im Zusammenhang mit UML und objektorientierter Programmierung?",
+  "answer": "Eine Sammlung von Methodensignaturen ohne Implementierung, die eine Klasse verpflichtend umsetzen muss."
+},
+{
+  "question": "Was bedeutet es, wenn eine Klasse eine Schnittstelle implementiert?",
+  "answer": "Dass sie alle in der Schnittstelle deklarierten Methoden mit eigenem Code umsetzt."
+},
+{
+  "question": "Warum kann eine Klasse eine Schnittstelle implementieren?",
+  "answer": "Um ein bestimmtes, garantiertes Verhalten (definierte Methoden) bereitzustellen, unabhängig von der Vererbungshierarchie."
+},
+{
+  "question": "Wie können Fehler in einem vorgegebenen Klassendiagramm erkannt werden?",
+  "answer": "Durch systematische Prüfung von Pfeilrichtung, Beziehungsart, Sichtbarkeiten sowie Passung von Attributen zu Gettern/Settern."
+},
+{
+  "question": "Welche typischen Fehler können in einem UML-Klassendiagramm vorkommen?",
+  "answer": "Falsche Pfeilrichtung, Verwechslung von Vererbung/Implementierung, falsche Sichtbarkeit, fehlende Getter/Setter, falscher Datentyp."
+},
+{
+  "question": "Wie wird ein Fehler in einem Klassendiagramm fachlich begründet?",
+  "answer": "Durch Benennung der UML-Regel, die verletzt wurde, und Erklärung, warum die korrekte Darstellung anders aussehen müsste."
+},
+{
+  "question": "Warum reicht es bei einer Korrektur eines UML-Klassendiagramms nicht aus, nur die falsche Stelle zu verändern?",
+  "answer": "Weil in einer Klausur zusätzlich die fachliche Begründung verlangt wird, warum die Änderung notwendig ist."
+},
+{
+  "question": "Wie sollte eine Korrektur in einem Klassendiagramm erklärt werden?",
+  "answer": "Fehler benennen, korrekte Regel nennen, korrigierte Darstellung beschreiben."
+},
+{
+  "question": "Wie kann geprüft werden, ob eine UML-Beziehung fachlich korrekt ist?",
+  "answer": "Indem geprüft wird, ob Linienart (durchgezogen/gestrichelt), Pfeilspitze und Richtung zur beschriebenen fachlichen Beziehung passen."
+},
+{
+  "question": "Wie kann geprüft werden, ob die Pfeilrichtung einer UML-Beziehung korrekt ist?",
+  "answer": "Indem überlegt wird, welches Element das speziellere/abhängige ist – der Pfeil zeigt stets zum Allgemeineren/Basiselement."
+},
+{
+  "question": "Wie kann geprüft werden, ob eine Vererbung oder Implementierung vorliegt?",
+  "answer": "Durch Prüfung, ob das Zielelement eine Klasse (Vererbung, durchgezogen) oder eine Schnittstelle (Implementierung, gestrichelt) ist."
+},
+{
+  "question": "Wie kann geprüft werden, ob die Sichtbarkeit eines Attributs korrekt gewählt wurde?",
+  "answer": "Indem geprüft wird, ob das Attribut vor direktem Fremdzugriff geschützt werden soll (private) oder bewusst offen sein muss (public)."
+},
+{
+  "question": "Wie kann geprüft werden, ob Getter und Setter zu einem Attribut passen?",
+  "answer": "Indem geprüft wird, ob Name, Datentyp und Sichtbarkeit von Attribut und zugehöriger Getter-/Setter-Methode konsistent sind."
+}
+]
